@@ -1,0 +1,646 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+
+/* backside */
+.back {
+  width: 100vw;
+  position: absolute;
+}
+.back img {
+  width: 100%;
+}
+
+/* frontside */
+.front {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 400px;
+}
+
+.left {
+  display: flex;
+  gap: 15px;
+  margin-left: 40px;
+}
+.left .logo img {
+  width: 100px;
+}
+.left .Search input {
+  width: 500px;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 40px;
+}
+.left .Search .fa-magnifying-glass {
+  position: absolute;
+  top: 29px;
+  left: 185px;
+}
+/* header section right */
+.right .login {
+  background-color: white;
+  padding: 8px;
+  color: black;
+}
+
+.right .signin {
+  background-color: black;
+  padding: 8px;
+  color: white;
+}
+.right .fa-globe {
+  background-color: white;
+  padding: 8px;
+  font-size: 16px;
+}
+/*  page -1 headersection end */
+
+/*  page-2 complete section start */
+
+#complete_section {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.complete_left {
+  position: relative;
+  margin-right: 20px;
+}
+
+.complete_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.complete_right .right_logo img {
+  width: 150px;
+}
+.complete_right .right_logo img {
+  width: 150px;
+}
+.com_your {
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+}
+.web_course {
+  color: #9152ab;
+  font-size: 50px;
+  font-weight: lighter;
+}
+.start_course a {
+  color: #fff;
+}
+.complete_right .start_course {
+  width: fit-content;
+  color: white;
+  background-color: #c776e9;
+  padding: 8px 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.dotted_design {
+  display: flex;
+  gap: 5px;
+}
+
+.Dotted {
+  background-color: #9152ab;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+/* page-2 complete section end */
+
+/* <!-- page-3 Course details start--> */
+
+#happy_student {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+
+.happy_student_img_section {
+  width: 100%;
+  width: 10%;
+}
+.happy_student_details {
+  width: 90%;
+}
+
+.happy_student_img_section .myimgdiv {
+  width: 100%;
+}
+.happy_student_details .myimgdiv img {
+  width: 100%;
+}
+.happy_student_details {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.happy_student_top_img {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.text_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.student_say_title {
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.left_text_box {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  background-color: #9152ab;
+  padding: 15px;
+  border-radius: 5px;
+  border-bottom-left-radius: 50px;
+}
+.Right_text_box {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  background-color: #9152ab;
+  padding: 15px;
+  border-radius: 5px;
+  border-bottom-right-radius: 50px;
+}
+.last_text {
+  margin-left: 50px;
+}
+.student_say {
+  margin-left: 20px;
+}
+.happy_student_details_bottom {
+  display: flex;
+  width: 100%;
+}
+.happy_student_details_bottom .student_say {
+  width: 40%;
+}
+
+.happy_student_details_bottom .student_say_img {
+  width: 60%;
+}
+
+.happy_student_details_bottom .student_say_img img {
+  width: 100%;
+}
+
+/*  page-3 course details end*/
+
+/* page-4 python  start */
+
+#featured_section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+}
+.featured_section_upper {
+  display: flex;
+  width: 100%;
+}
+.featured_section_upper.featured_section_upper_img {
+  width: 50%;
+}
+.featured_section_upper.featured_section_upper_img img {
+  width: 100%;
+}
+.featured_section_upper.featured_section_upper_details {
+  width: 50%;
+}
+.featured_section_upper_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured_section_upper_details .featured_title {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.featured_section_upper_details .featured_title .featured_title_shape {
+  width: 17px;
+  height: 17px;
+  background-color: #9152ab;
+  border-radius: 50%;
+}
+
+.featured_section_upper_details .featured_title .featured_title_text {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.featured_heading {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 65px;
+  letter-spacing: 0.5px;
+}
+.featured_heading .first_text {
+  font-weight: bolder;
+  font-size: 65x;
+  line-height: 55px;
+}
+.featured_peragraph {
+  width: 65%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.featuredA {
+  width: fit-content;
+  color: white;
+  background-color: #c776e9;
+  padding: 8px 15px;
+  border-radius: 25px;
+}
+
+.featured_section_lower {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-bottom: 100px;
+  width: 80%;
+}
+
+.featured_section_lower_card {
+  width: 20%;
+}
+
+.featured_section_lower_card .cardimg {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.featured_section_lower_card .cardimg img {
+  width: 100%;
+}
+
+/*  page-4 python ssection end*/
+
+/* <!-- page-5 testimonial start --> */
+
+#testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 85%;
+}
+.testimonial_upper {
+  height: 230px;
+  margin-bottom: 20px;
+}
+
+.testimonial_title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.testimonial_trust .Thousand_student {
+  color: #9152ab;
+  font-size: 32px;
+  font-weight: bold;
+  width: 20%;
+}
+.start_course {
+  width: fit-content;
+  color: white;
+  background-color: #c776e9;
+  padding: 8px 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.testimonial_trust {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.start_learning {
+  height: fit-content;
+  margin: 0;
+}
+.testimonial_lower {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 700px;
+  margin: 0 auto;
+}
+.testimonial_card {
+  width: 40%;
+  background-color: #c776e9;
+  color: white;
+  border-radius: 50px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  text-align: justify;
+  font-size: 12px;
+}
+.testimonial_card .testimonial_card_img {
+  position: absolute;
+  top: -150px;
+  left: 30px;
+}
+.desc_name {
+  text-align: end;
+  margin-top: 10px;
+}
+
+/* <!-- page-5 testimonial end --> */
+
+/* footer shape start */
+
+.footer_section_text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.footer_section_shape {
+  width: 100vw;
+}
+.footer_section_shape img {
+  width: 100%;
+}
+.footer_section_background {
+  width: 100px;
+}
+/* footer shape End */
+
+/* <!-- footer section last start --> */
+footer {
+  background-color: black;
+  width: 100%;
+  height: 500px;
+}
+.footer_content {
+  color: white;
+}
+.footer_upper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: baseline;
+}
+.same_a {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.same_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer_social p {
+  margin-bottom: 50px;
+}
+.all_icon {
+  display: flex;
+  font-size: 40px;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.subscribe_btn {
+  color: black;
+  padding: 5px 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.same_a ul li {
+  font-size: 20px;
+}
+.footerlower {
+  margin-top: 30px;
+}
+
+.footerlower_line {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.copy_right_text {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* <!-- footer section last end--> */
+
+/* responcive */
+
+@media only screen and (max-width: 1200px) {
+  #project_file {
+    width: 100vw;
+    height: 100vh;
+  }
+  .back {
+    width: 100vw;
+  }
+  .front {
+    height: 100px;
+  }
+  .left .Search .fa-magnifying-glass {
+    left: 130px;
+  }
+  .left .Search input {
+    width: 160px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  .left .logo img {
+    width: 50px;
+  }
+
+  .right .login {
+    font-size: 5px;
+    padding: 2px;
+  }
+
+  .right .signin {
+    font-size: 5px;
+    padding: 2px;
+  }
+  .right .fa-globe {
+    padding: 2px;
+    font-size: 5px;
+  }
+
+  #complete_section {
+    flex-direction: column;
+  }
+
+  .complete_left .left_img img {
+    width: 400px;
+    height: 300px;
+  }
+  .complete_right .right_logo img {
+    width: 100px;
+  }
+
+  .com_your {
+    font-size: 40px;
+  }
+  .web_course {
+    font-size: 20px;
+  }
+  #happy_student {
+    width: 100vw;
+  }
+  .happy_student_img_section .myimgdiv img {
+    width: 50px;
+  }
+  .happy_student_top_img {
+    gap: 10px;
+  }
+  .happy_student_top_img img {
+    width: 60px;
+    height: 60px;
+  }
+  .happy_student_details_bottom {
+    flex-direction: column;
+  }
+  .student_say_title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0%;
+  }
+
+  .left_text_box {
+    width: 180px;
+    height: 150px;
+    font-size: 5px;
+  }
+  .Right_text_box {
+    width: 180px;
+    height: 150px;
+    font-size: 5px;
+  }
+  .featured_section_upper {
+    flex-direction: column;
+  }
+  .featured_section_upper_img img {
+    width: 350px;
+    height: 200px;
+  }
+  .featured_section_upper_details {
+    font-size: 30px;
+  }
+.featured_heading{
+  font-size: 35px;
+}
+
+.featured_peragraph{
+  width: 150px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.featuredA{
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.featured_section_lower{
+  gap: 40px;
+}
+
+.featured_section_lower_card{
+ 
+}
+.featured_section_lower_card .cardimg{
+  height: 60px;
+}
+h2{
+  font-size: 15px;
+}
+P{
+  font-size: 8px;
+}
+.testimonial_upper{
+  height:80px;
+ 
+}
+.testimonial_trust .Thousand_student{
+  font-size: 12px;
+  width: 50%;
+}
+
+.testimonial_lower{
+  height: auto;
+  gap: 30px;
+  
+
+}
+
+.testimonial_card{
+font-size: 6px;
+}
+
+.testimonial_card_img img{
+  width: 50px;
+  height: 50px;
+}
+.testimonial_card .testimonial_card_img{
+  top: -20px;
+}
+
+
+.footer_section_text{
+font-size: 20px;
+
+}
+.p{
+  font-size: 8px;
+  width: 50%;
+}
+
+
+
+
+
+}
